@@ -5,16 +5,17 @@ user_score = 0
 comp_score = 0
 
 tie_counter = 0
+puts "please input a Rock, Paper or Scissors"
 
+	x = gets.chomp.downcase
+
+	
 until user_score == 3 || comp_score == 3
 
-exit
+
 
 end
-	puts "please input a Rock, Paper or Scissors"
-
-	x = gets.chomp.capitalize.downcase
-
+	
 	comp = ["rock", "paper", "scissors"].sample
 
 	if comp = ("rock") && x == ("scissors")
@@ -42,5 +43,5 @@ if user_score == 3
 
 else 
 	puts "this is way too easy!"
-
+exit
 end

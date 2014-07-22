@@ -1,0 +1,12 @@
+git commands
+git init --> initalizes empty git repository
+
+git add . --> add all local files to our local Git repository
+stages them to be pushed to Github
+
+git commit -a -m "first commit" --> commiting our staged changes to be pushed up to 
+Github
+
+IF NEW REPO --> git remote add origin < specific repo link on your Github repo page>
+
+git push origin master  --> pushes up our changes to Github
